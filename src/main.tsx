@@ -9,19 +9,19 @@ import Application from './pages/Application.tsx'
 
 const router = createBrowserRouter([
   {
-    path: "Gaia-Website/",
+    path: "",
     element: <Home/>,
   },
   {
-    path: "Gaia-Website/Contact/",
+    path: "Contact/",
     element: <Contact/>,
   },
   {
-    path: "Gaia-Website/Application/",
+    path: "Application/",
     element: <Application/>,
   },
   {
-    path: "Gaia-Website/Team/",
+    path: "Team/",
     element: <Team/>,
   },
 ]);
