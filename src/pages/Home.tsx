@@ -6,8 +6,6 @@ function Home() {
 
   return (
     <>
-      <Nav/>
-      <p>Home</p>
     </>
   )
 }
