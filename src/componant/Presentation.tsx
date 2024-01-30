@@ -11,11 +11,10 @@ const Presentation: React.FC = () => {
           Ce que nous faisons
         </h1>
         <h2 className="text-6xl text-gray-800 font-semibold">
-          Présentation tah les fou
+          Présentation de Gaïa
         </h2>
-        <p className="text-sm font-semibold text-gray-600 text-center mt-4 w-[35%]">
-          Description tah les fou de malade avec beaucoup de mots comple et
-          explication de l'appli
+        <p className="text-sm font-semibold text-base text-gray-600 text-center mt-4 w-[45%]">
+          Gaïa est une application mobile qui vous permet de vous assister dans votre suivi et votre gestion médical. Nous voulons faciliter votre quotidien en vous proposant des fonctionnalités qui vous aideront à bien assimiler la redondance de votre prise médicamenteuse. <br></br> Chaque personne est différente, c'est pourquoi nous vous proposons une application personnalisable et adaptée à vos patologies.
         </p>
       </div>
 
@@ -26,7 +25,7 @@ const Presentation: React.FC = () => {
             Suivi de traitement & de stock
           </h3>
           <div className=" w-[80%]">
-            <p className="text-gray-400 mt-2 text-center">
+            <p className="flex justify-center items-center text-gray-400 mt-2 text-center ">
               Grâce au suivi de traitement, vous pouvez être notifié à chaque prise de médicament et ainsi ne jamais oublier de prendre votre traitement. Quant au suivi de stock, il vous permet de bien gérer votre stock personnel de médicament.
             </p>
           </div>
