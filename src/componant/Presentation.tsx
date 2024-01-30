@@ -1,4 +1,7 @@
 import React from "react";
+import stockIcon from '../assets/stock.png';
+import researchMed from '../assets/composition.png';
+import mapIcon from '../assets/map.png';
 
 const Presentation: React.FC = () => {
   return (
@@ -16,42 +19,40 @@ const Presentation: React.FC = () => {
         </p>
       </div>
 
-      <div className="flex justify-center mt-8 h-[40%] w-[80%]">
-        <div className="flex flex-col items-center gap-2 bg-white rounded-lg shadow-2xl shadow-neutral-200 p-6 pt-10 mx-6 w-[25%] min-h-[40%] hover:w-[27%] hover:min-h-[42%] duration-200 hover:shadow-indigo-100">
-          <div className="flex items-center justify-center h-16 w-16 bg-indigo-200 rounded-full"></div>
+      <div className="flex justify-center mt-8 w-[80%]">
+        <div className="flex flex-col items-center gap-2 bg-white rounded-lg shadow-2xl shadow-neutral-200 p-6 pt-10 mx-6 w-[25%] min-h-[40%] hover:px-[2.5%] hover:w-[27%] hover:min-h-[42%] duration-200 hover:shadow-indigo-100">
+          <div className="flex items-center justify-center h-16 w-16 bg-indigo-200 rounded-full"><img src={stockIcon} alt="stock icon" className="h-[85%]"></img></div>
           <h3 className="text-4xl font-normal text-gray-800 mt-4 tracking-wide text-center">
-            Lorem Ipsum
+            Suivi de traitement & de stock
           </h3>
-          <div className=" w-[70%]">
+          <div className=" w-[80%]">
             <p className="text-gray-400 mt-2 text-center">
-              Pompeius calentes in hierosolymis ad his iuris et emergunt aptae
-              dictione.
+              Grâce au suivi de traitement, vous pouvez être notifié à chaque prise de médicament et ainsi ne jamais oublier de prendre votre traitement. Quant au suivi de stock, il vous permet de bien gérer votre stock personnel de médicament.
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-2 bg-white rounded-lg shadow-2xl shadow-neutral-200 p-6 pt-10 mx-6 w-[25%] min-h-[40%] hover:w-[27%] hover:min-h-[42%] duration-200 hover:shadow-yellow-100">
-          <div className="flex items-center justify-center h-16 w-16 bg-yellow-200 rounded-full"></div>
+        <div className="flex flex-col items-center gap-2 bg-white rounded-lg shadow-2xl shadow-neutral-200 p-6 pt-10 mx-6 w-[25%] min-h-[40%] hover:px-[2.5%] hover:w-[27%] hover:min-h-[42%] duration-200 hover:shadow-yellow-100">
+          <div className="flex items-center justify-center h-16 w-16 bg-yellow-200 rounded-full"><img src={mapIcon} alt="map icon"></img></div>
           <h3 className="text-4xl font-normal text-gray-800 mt-4 tracking-wide text-center">
-            Lorem Ipsum
+            Carte des établissements de santé
           </h3>
-          <div className=" w-[70%]">
+          <div className=" w-[80%]">
             <p className="text-gray-400 mt-2 text-center">
-              Pompeius calentes in hierosolymis ad his iuris et emergunt aptae
-              dictione.
+              Cette fonctionnalité vous permet de trouver les établissements de santé les plus proches afin de ne jamais être à court de médicaments lors de votre prise de traitement.
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-2 bg-white rounded-lg shadow-2xl shadow-neutral-200 p-6 pt-10 mx-6 w-[25%] min-h-[40%] hover:w-[27%] hover:min-h-[42%] duration-200 hover:shadow-cyan-100">
-          <div className="flex items-center justify-center h-16 w-16 bg-cyan-100 rounded-full"></div>
+        <div className="flex flex-col items-center gap-2 bg-white rounded-lg shadow-2xl shadow-neutral-200 p-6 pt-10 mx-6 w-[25%] min-h-[40%] hover:px-[2.5%] hover:w-[27%] hover:min-h-[42%] duration-200 hover:shadow-cyan-100">
+          <div className="flex items-center justify-center h-16 w-16 bg-cyan-100 rounded-full"><img src={researchMed} alt="composition icon"></img></div>
+          
           <h3 className="text-4xl font-normal text-gray-800 mt-4 tracking-wide text-center">
-            Lorem Ipsum
+            Scan & recherche de produits médicaux
           </h3>
-          <div className=" w-[70%]">
+          <div className=" w-[80%]">
             <p className="text-gray-400 mt-2 text-center">
-              Pompeius calentes in hierosolymis ad his iuris et emergunt aptae
-              dictione.
+              Le scan vous permet de scanner la boite d'un médicament afin d'obtenir toutes les informations le concernant. La recherche vous permet de trouver un médicament en particulier. Vous pouvez également scanner l'ordonnance de votre médecin afin de l'ajouter à votre liste de traitement.
             </p>
           </div>
         </div>
