@@ -1,4 +1,3 @@
-import React from "react";
 import profil1 from "../assets/profil1.png";
 import profil2 from "../assets/profil2.png";
 import profil3 from "../assets/profil3.png";
