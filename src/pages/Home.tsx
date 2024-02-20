@@ -5,12 +5,12 @@ import Team from "../componant/Team";
 
 function Home() {
   return (
-    <>
+    <div className=" min-w-[360px]">
       <Header></Header>
       <Showcase></Showcase>
       <Presentation></Presentation>
       <Team></Team>
-    </>
+    </div>
   );
 }
 
