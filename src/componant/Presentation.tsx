@@ -5,7 +5,7 @@ import mapIcon from '../assets/map.png';
 
 const Presentation: React.FC = () => {
   return (
-    <div className="flex flex-col items-center md:h-[750px] xl:h-[900px] h-[1340px] gap-8 md:gap-[10%]" id="presentation">
+    <div className="flex flex-col items-center md:h-[750px] xl:h-[900px] h-[1250px] gap-8 md:gap-[10%]" id="presentation">
       <div className="flex flex-col items-center w-[90%] gap-3">
         <h2 className=" text-base md:text-lg lg:text-xl text-lime-500 font-semibold">
           Ce que nous faisons

@@ -2,7 +2,7 @@ import logo from '../assets/logo_title_gaia.png';
 
 const Header = () => {
     return (
-        <header className="sm:fixed top-0 left-0 right-0 flex items-center justify-between 2xl:px-48 px-4 bg-white duration-150">
+        <header className="sm:fixed top-0 left-0 right-0 flex items-center justify-between 2xl:px-48 px-4 bg-white duration-150 z-10">
             <div className="flex items-center">
                 <img src={logo} alt="Logo" className="w-40 lg:w-60" />
             </div>
