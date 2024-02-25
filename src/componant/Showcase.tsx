@@ -1,5 +1,5 @@
 import gaiaPhone from "../assets/gaia-phone.png";
-import { ArrowRightCircle } from "react-feather";
+import { ArrowRight } from "react-feather";
 
 const Showcase = () => {
   return (
@@ -14,21 +14,21 @@ const Showcase = () => {
         </div>
         <div className="flex flex-col md:flex-row md:gap-10 lg:gap-14 gap-6">
           <button
-            className="px-8 py-2 text-white bg-lime-500 hover:bg-blue-400 lg:text-xl font-semibold rounded-md duration-500"
+            className="px-6 py-4 text-white bg-lime-500 hover:bg-blue-400 lg:text-xl font-semibold rounded-md duration-500"
             onClick={() => window.open("/gaia.pdf")}
           >
             Essayer
           </button>
           <button
-            className="flex gap-2 lg:gap-4 px-8 py-2 border-2 border-lime-500 text-lime-500 font-semibold lg:text-xl rounded-md hover:bg-lime-500 hover:text-white duration-500 items-center justify-center"
+            className="flex gap-2 lg:gap-4 px-8 py-2 bg-lime-100 text-lime-500 font-medium lg:text-xl rounded-md hover:bg-lime-500 hover:text-white duration-500 items-center justify-center"
             onClick={() => window.open("/gaia.pdf")}
           >
             Présentation
             <div className="lg:flex hidden">
-              <ArrowRightCircle height={30} width={30} />
+              <ArrowRight height={30} width={30} />
             </div>
             <div className="md:flex lg:hidden">
-              <ArrowRightCircle height={25} width={25} />
+              <ArrowRight height={25} width={25} />
             </div>
           </button>
         </div>
