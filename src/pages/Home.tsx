@@ -1,3 +1,4 @@
+import Contact from "../componant/Contact";
 import Header from "../componant/Header";
 import Presentation from "../componant/Presentation";
 import Showcase from "../componant/Showcase";
@@ -11,6 +12,7 @@ function Home() {
       <Showcase></Showcase>
       <Presentation></Presentation>
       <Team></Team>
+      <Contact></Contact>
     </div>
   );
 }
