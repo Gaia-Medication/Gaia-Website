@@ -1,4 +1,8 @@
 import Contact from "../componant/Contact";
+import Content1 from "../componant/ContentSuivi";
+import Content2 from "../componant/ContentMap";
+import Content3 from "../componant/ContentScan";
+import Content4 from "../componant/ContentGestionProfil";
 import Header from "../componant/Header";
 import Presentation from "../componant/Presentation";
 import Showcase from "../componant/Showcase";
@@ -11,6 +15,10 @@ function Home() {
       <Header></Header>
       <Showcase></Showcase>
       <Presentation></Presentation>
+      <Content1></Content1>
+      <Content2></Content2>
+      <Content3></Content3>
+      <Content4></Content4>
       <Team></Team>
       <Contact></Contact>
     </div>
