@@ -34,7 +34,7 @@ const Showcase = () => {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center w-[45%] md:h-full sm:h-[50vh] h-[35vh] relative">
-        <img src={gaiaPhone} alt="Gaia Phone" className="w-[80%] xl:h-full z-10" />
+        <img src={gaiaPhone} alt="Gaia Phone" className="w-[80%] xl:w-[60%] h-auto max-w-full z-10" />
         <div className="bg-lime-400 rounded-full xl:w-[550px] xl:h-[550px] md:w-[380px] md:h-[380px] sm:w-[250px] sm:h-[250px] w-[150px] h-[150px] absolute"></div>
       </div>
     </div>
