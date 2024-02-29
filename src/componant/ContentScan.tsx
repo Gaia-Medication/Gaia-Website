@@ -7,15 +7,15 @@ import { ArrowRight } from 'react-feather';
 
 const ContentScan = () => {
     return (
-        <div id="contentScan" className="flex items-center justify-center h-[750px] sm:h-[700px] lg:h-[900px]">
+        <div id="contentScan" className="flex items-center justify-center h-[700px] sm:h-[700px] lg:h-[900px]">
             <div className='flex flex-col items-center justify-start w-full h-full'>
                 <h4 className='text-sm md:text-base lg:text-xl text-lime-500 font-medium'>Scanner vos ordonnances et médicaments</h4>
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center mb-4'>
                     <img src={iconGaia} alt="Icon Gaia" className="w-[40px] h-[40px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px]" style={{
                         filter: 'invert(86%) sepia(15%) saturate(5047%) hue-rotate(25deg) brightness(95%) contrast(101%)',
                         transition: 'filter 0.3s ease-in-out'
                     }} />
-                    <h3 className='text-2xl md:text-4xl xl:text-6xl font-medium text-gray-800' style={{
+                    <h3 className='text-lg sm:text-xl md:text-4xl xl:text-6xl font-medium text-gray-800' style={{
                         transition: 'opacity 0.3s ease-in-out'
                     }}>
                         Scan & recherche de produits médicaux
@@ -28,7 +28,7 @@ const ContentScan = () => {
                         <div className='flex flex-col w-[90%] sm:w-[55%] h-full gap-6' style={{
                             transition: 'opacity 0.3s ease-in-out'
                         }}>
-                            <h5 className='text-lg md:text-2xl lg:text-4xl text-lime-400 font-semibold'>
+                            <h5 className=' text-base sm:text-lg md:text-2xl lg:text-4xl text-lime-400 font-semibold'>
                                 Scanner vos boîtes de médicaments
                             </h5>
                             <p className='text-xs md:text-base lg:text-2xl text-gray-600 font-light'>
@@ -62,7 +62,7 @@ const ContentScan = () => {
                         <div className='flex flex-col w-[90%] sm:w-[55%] h-full gap-6' style={{
                             transition: 'opacity 0.3s ease-in-out'
                         }}>
-                            <h5 className='text-lg md:text-2xl lg:text-4xl text-lime-400 font-semibold'>
+                            <h5 className=' text-base sm:text-lg md:text-2xl lg:text-4xl text-lime-400 font-semibold'>
                                 Scanner vos ordonnances
                             </h5>
                             <p className='text-xs md:text-base lg:text-2xl text-gray-600 font-light'>
