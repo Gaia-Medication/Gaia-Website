@@ -3,7 +3,7 @@ import MapExample1 from '../assets/ExampleMap.png';
 
 const contentMap = () => {
     return (
-        <div id="contentMap" className="flex items-center justify-center lg:h-[800px] md:h-[600px] h-[750px] mt-32">
+        <div id="contentMap" className="flex items-center justify-center lg:h-[800px] md:h-[500px] h-[750px] mt-32">
             <div className='flex flex-col items-center gap-4 h-full'>
                 <h4 className=' text-sm md:text-base lg:text-xl text-lime-500 font-medium'>Retrouver vos professionnels de santé</h4>
                 <div className='flex justify-center items-center'>
