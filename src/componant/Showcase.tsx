@@ -3,7 +3,7 @@ import { ArrowRight } from "react-feather";
 
 const Showcase = () => {
   return (
-    <div id="home" className="flex sm:mt-40 mt-0 justify-center items-center p-2" style={{ height: "78vh"}}>
+    <div id="home" className="flex sm:mt-40 mt-0 justify-center items-center p-2 xl:h-[78vh] md:h-[60vh] h-[50vh]">
       <div className="flex flex-col justify-center w-[55%] h-full pl-[6%] sm:pl-[12%] gap-12">
         <div className="flex flex-col w-full gap-2">
           <div className="bg-blue-400 rounded-full px-2 max-w-12 lg:ml-6">
@@ -34,8 +34,8 @@ const Showcase = () => {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center w-[45%] md:h-full sm:h-[50vh] h-[35vh] relative">
-        <img src={gaiaPhone} alt="Gaia Phone" className="h-full z-10" />
-        <div className="bg-lime-400 rounded-full w-[550px] h-[550px] absolute"></div>
+        <img src={gaiaPhone} alt="Gaia Phone" className="w-[80%] xl:h-full z-10" />
+        <div className="bg-lime-400 rounded-full xl:w-[550px] xl:h-[550px] md:w-[380px] md:h-[380px] sm:w-[250px] sm:h-[250px] w-[150px] h-[150px] absolute"></div>
       </div>
     </div>
   );
