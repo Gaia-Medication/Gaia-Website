@@ -21,7 +21,7 @@ const Team = () => {
                             <img
                                 src={profil1}
                                 alt="profil 1"
-                                className="w-full h-full object-cover rounded-lg hover:opacity-75"
+                                className="w-full h-full object-cover rounded-lg hover:opacity-75 transition-opacity duration-300"
                             />
                             <div className="absolute inset-0 bg-lime-400 bg-opacity-90 rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300 backdrop-filter flex justify-start items-end p-5 gap-2 backdrop-blur">                                
                                 <a href="https://www.linkedin.com/in/florian-tran-701839263/">
@@ -50,7 +50,7 @@ const Team = () => {
                             <img
                                 src={profil2}
                                 alt="profil 2"
-                                className="w-full h-full object-cover rounded-lg hover:opacity-75"
+                                className="w-full h-full object-cover rounded-lg hover:opacity-75 transition-opacity duration-300"
                             />
                             <div className="absolute inset-0 bg-lime-400 bg-opacity-90 rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300 backdrop-filter flex justify-start items-end p-5 gap-2 backdrop-blur">
                                 <a href="https://www.linkedin.com/in/alexandre-clenet/">
@@ -79,7 +79,7 @@ const Team = () => {
                             <img
                                 src={profil3}
                                 alt="profil 3"
-                                className="w-full h-full object-cover rounded-lg hover:opacity-75"
+                                className="w-full h-full object-cover rounded-lg hover:opacity-75 transition-opacity duration-300"
                             />
                             <div className="absolute inset-0 bg-lime-400 bg-opacity-90 rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300 backdrop-filter flex justify-start items-end p-5 gap-2 backdrop-blur">
                                 <a href="https://www.linkedin.com/in/nathan-marie/">
@@ -108,7 +108,7 @@ const Team = () => {
                             <img
                                 src={profil4}
                                 alt="profil 4"
-                                className="w-full h-full object-cover rounded-lg hover:opacity-75"
+                                className="w-full h-full object-cover rounded-lg hover:opacity-75 transition-opacity duration-300"
                             />
                             <div className="absolute inset-0 bg-lime-400 bg-opacity-90 rounded-lg opacity-0 hover:opacity-100 transition-opacity duration-300 backdrop-filter flex justify-start items-end p-5 gap-2 backdrop-blur">
                                 <a href="https://www.linkedin.com/in/benjamin-couet-727b95267/">

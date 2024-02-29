@@ -91,7 +91,7 @@ const Contact = () => {
                                 name="senderEmail"
                                 value={formData.senderEmail}
                                 onChange={handleChange}
-                                className="border-b m-4 p-2 w-[80%]"
+                                className="border-b m-4 p-2 w-[80%] transition-all duration-300"
                             />
                         </div>
                         <div>
@@ -101,7 +101,7 @@ const Contact = () => {
                                 name="senderFirstName"
                                 value={formData.senderFirstName}
                                 onChange={handleChange}
-                                className="border-b m-4 p-2 w-[80%]"
+                                className="border-b m-4 p-2 w-[80%] transition-all duration-300"
                             />
                         </div>
                         <div>
@@ -111,7 +111,7 @@ const Contact = () => {
                                 name="senderName"
                                 value={formData.senderName}
                                 onChange={handleChange}
-                                className="border-b m-4 p-2 w-[80%]"
+                                className="border-b m-4 p-2 w-[80%] transition-all duration-300"
                             />
                         </div>
                         <div className=" col-span-full">
@@ -120,12 +120,12 @@ const Contact = () => {
                                 name="htmlContent"
                                 value={formData.htmlContent}
                                 onChange={handleContent}
-                                className="border w-full h-full p-4"
+                                className="border w-full h-full p-4 transition-all duration-300"
                             />
                         </div>
                     </div>
                     <div className="flex justify-end items-center p-8 w-full">
-                        <button className="flex gap-2 lg:gap-4 px-8 py-3 bg-blue-100 text-blue-400 font-base lg:text-xl rounded-md hover:bg-blue-400 hover:text-white duration-500 items-center justify-center"
+                        <button className="flex gap-2 lg:gap-4 px-8 py-3 bg-blue-100 text-blue-400 font-base lg:text-xl rounded-md hover:bg-blue-400 hover:text-white duration-300 items-center justify-center transition-all duration-300"
                             type="button" onClick={sendEmail}>
                             Envoyer l'email
                             <div className="lg:flex hidden">
