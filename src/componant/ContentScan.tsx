@@ -24,7 +24,7 @@ const ContentScan = () => {
 
                 <div className='flex flex-col items-center justify-center w-[90%] h-[80%] gap-10'>
 
-                    <div className='flex gap-[5%] h-full sm:h-auto sm:flex-row flex-col items-center justify-center'>
+                    <div className='flex gap-[5%] w-[90%] h-full sm:h-auto sm:flex-row flex-col items-center justify-start'>
                         <div className='flex flex-col w-[90%] sm:w-[55%] h-full gap-6' style={{
                             transition: 'opacity 0.3s ease-in-out'
                         }}>
@@ -43,22 +43,22 @@ const ContentScan = () => {
                             </p>
                         </div>
 
-                        <div className='flex h-full w-[30%] items-center justify-center gap-2 md:gap-4 lg:gap-6' style={{
+                        <div className='flex h-full w-[30%] items-center justify-center gap-2 md:gap-4 lg:gap-6 max-h-[300px]' style={{
                             transition: 'opacity 0.3s ease-in-out'
                         }}>
-                            <img src={ExampleScanDoli} alt="Example of the scan of a doliprane" className='w-[40%]' style={{
+                            <img src={ExampleScanDoli} alt="Example of the scan of a doliprane" className='w-[40%] max-h-[300px] max-w-[150px]' style={{
                                 transition: 'opacity 0.3s ease-in-out'
                             }} />
                             <ArrowRight height={50} width={50} className='text-blue-400' style={{
                                 transition: 'opacity 0.3s ease-in-out'
                             }} />
-                            <img src={ExampleDoliprane} alt="Example of doliprane in Gaia-medication" className='w-[40%]' style={{
+                            <img src={ExampleDoliprane} alt="Example of doliprane in Gaia-medication" className='w-[40%] max-h-[300px] max-w-[150px]' style={{
                                 transition: 'opacity 0.3s ease-in-out'
                             }} />
                         </div>
                     </div>
 
-                    <div className='flex gap-[5%] h-full sm:h-auto sm:flex-row flex-col items-center justify-center'>
+                    <div className='flex gap-[5%] w-[90%] h-full sm:h-auto sm:flex-row flex-col items-center justify-between'>
                         <div className='flex flex-col w-[90%] sm:w-[55%] h-full gap-6' style={{
                             transition: 'opacity 0.3s ease-in-out'
                         }}>
@@ -74,16 +74,16 @@ const ContentScan = () => {
                             </p>
                         </div>
 
-                        <div className='flex h-full w-[30%] items-center justify-center gap-2 md:gap-4 lg:gap-6' style={{
+                        <div className='flex h-full w-[30%] items-center justify-center gap-2 md:gap-4 lg:gap-6 max-h-[300px]' style={{
                             transition: 'opacity 0.3s ease-in-out'
                         }}>
-                            <img src={ExampleScanPrescriptionBefore} alt="Example of the scan of a prescription" className='w-[40%]' style={{
+                            <img src={ExampleScanPrescriptionBefore} alt="Example of the scan of a prescription" className='w-[40%] max-h-[300px] max-w-[150px]' style={{
                                 transition: 'opacity 0.3s ease-in-out'
                             }} />
                             <ArrowRight height={50} width={50} className='text-blue-400' style={{
                                 transition: 'opacity 0.3s ease-in-out'
                             }} />
-                            <img src={ExampleScanPrescription} alt="Example of the scan of a prescription" className='w-[40%]' style={{
+                            <img src={ExampleScanPrescription} alt="Example of the scan of a prescription" className='w-[40%] max-h-[300px] max-w-[150px]' style={{
                                 transition: 'opacity 0.3s ease-in-out'
                             }} />
                         </div>
