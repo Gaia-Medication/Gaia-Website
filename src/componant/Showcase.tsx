@@ -1,9 +1,9 @@
-import gaiaPhone from "../assets/gaia-phone.png";
+import gaiaPhone from "../assets/3d-gaia-phone.png";
 import { ArrowRight } from "react-feather";
 
 const Showcase = () => {
   return (
-    <div id="home" className="flex sm:mt-40 mt-0 justify-center items-center" style={{ height: "65vh"}}>
+    <div id="home" className="flex sm:mt-40 mt-0 justify-center items-center p-2" style={{ height: "78vh"}}>
       <div className="flex flex-col justify-center w-[55%] h-full pl-[6%] sm:pl-[12%] gap-12">
         <div className="flex flex-col w-full gap-2">
           <div className="bg-blue-400 rounded-full px-2 max-w-12 lg:ml-6">
@@ -33,8 +33,9 @@ const Showcase = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center w-[45%] md:h-full sm:h-[50vh] h-[35vh]">
-        <img src={gaiaPhone} alt="Gaia Phone" className="h-[90%]" />
+      <div className="flex flex-col items-center justify-center w-[45%] md:h-full sm:h-[50vh] h-[35vh] relative">
+        <img src={gaiaPhone} alt="Gaia Phone" className="h-full z-10" />
+        <div className="bg-lime-400 rounded-full w-[550px] h-[550px] absolute"></div>
       </div>
     </div>
   );
