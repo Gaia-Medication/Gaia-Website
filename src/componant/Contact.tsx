@@ -45,7 +45,7 @@ const Contact = () => {
                             name: formData.recipientName,
                         },
                     ],
-                    subject: `Contact du site web Gaia-Medication de: ${formData.senderName} ${formData.senderFirstName}`,
+                    subject: `Contact du site web Gaia-Medication de : ${formData.senderName} ${formData.senderFirstName}`,
                     htmlContent: formData.htmlContent,
                 },
                 {
@@ -70,7 +70,7 @@ const Contact = () => {
                 console.log(e.request);
             } else {
                 // Quelque chose s'est mal passé lors de la mise en place de la requête
-                console.log("Error", e.message);
+                console.log("Erreur", e.message);
             }
         }
     };
@@ -114,7 +114,7 @@ const Contact = () => {
                                 className="border-b m-4 p-2 w-[80%] transition-all duration-300"
                             />
                         </div>
-                        <div className=" col-span-full">
+                        <div className="col-span-full">
                             <textarea
                                 placeholder="Votre message"
                                 name="htmlContent"

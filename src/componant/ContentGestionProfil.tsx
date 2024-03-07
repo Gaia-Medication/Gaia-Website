@@ -1,6 +1,6 @@
 import profileContentImage from '../assets/profileContentImage.png';
 
-const contentGestionProfil = () => {
+const ContentGestionProfil = () => {
     return (
         <div id="contentGestionProfil" className="flex flex-col items-center justify-center h-[750px] sm:h-[500px] md:h-[750px] lg:h-[1000px] w-full bg-white gap-8">
             <div className='flex flex-col items-center gap-2 w-full'>
@@ -18,15 +18,15 @@ const contentGestionProfil = () => {
                             pour une gestion simplifiée de leurs <span className='text-lime-500 font-medium'>traitements</span>. <br />
                         </p>
                         <p className='text-xs md:text-base lg:text-2xl text-gray-600 font-light'>
-                            Vous pouvez ajouter, modifier ou supprimer des profils, et gérer leurs traitements en un clin d'oeil. <br />
+                            Vous pouvez ajouter, modifier ou supprimer des profils, et gérer leurs traitements en un clin d'œil. <br />
                         </p>
                         <p className='text-xs md:text-base lg:text-2xl text-gray-600 font-light'>
                             Grâce à l'<span className='text-lime-500 font-medium'>interface intuitive</span> de Gaia, vous avez accès à toutes
-                            les informations de vos proches en un clin d'oeil grâce à au résumé. <br />
+                            les informations de vos proches en un clin d'œil grâce au résumé. <br />
                         </p>
                     </div>
 
-                    {/* Est visible seuelement quand la width est inférieur à 768px */}
+                    {/* Est visible seulement quand la width est inférieure à 768px */}
                     <div className="md:hidden flex flex-col md:h-full justify-start mt-6 transition-all duration-500">
                         <h5 className='text-lg md:text-2xl lg:text-4xl text-blue-400 font-semibold'>
                             Rester informé
@@ -70,4 +70,4 @@ const contentGestionProfil = () => {
     )
 }
 
-export default contentGestionProfil;
+export default ContentGestionProfil;

@@ -14,12 +14,12 @@ const Presentation: React.FC = () => {
         <h2 className="text-3xl md:text-5xl lg:text-6xl text-gray-800 font-semibold">
           Présentation de Gaïa
         </h2>
-        <p className="text-xs lg:text-lg font-regular text-gray-500 text-center mt-4 w-[90%] lg:w-[80%] px-2">
+        <p className="text-xs lg:text-lg font-normal text-gray-500 text-center mt-4 w-[90%] lg:w-[80%] px-2">
           Gaïa, votre assistant de santé mobile, simplifie le suivi et la gestion de vos médicaments. <br /> Conçue pour s'adapter à chaque individu, notre application vous offre des fonctionnalités personnalisées pour optimiser la gestion de vos traitements selon vos pathologies spécifiques. Avec Gaïa, gérez facilement la routine de votre prise médicamenteuse.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 xl:flex md:grid-cols-2 gap-8 mt-8 w-[90%]">
+      <div className="grid grid-cols-1 xl:grid-cols-2 md:grid-cols-2 gap-8 mt-8 w-[90%]">
         <div className="flex flex-col items-center gap-2 bg-white rounded-2xl pt-10 md:w-[90%] w-full max-h-[340px] sm:max-h-[500px] min-h-[250px] xl:min-h-[300px] duration-200 md:hover:shadow-indigo-100 overflow-auto">
           <div className="flex items-center justify-center h-16 w-16 bg-indigo-200 rounded-full transition-all duration-300">
             <img src={stockIcon} alt="stock icon" className="h-[85%]" />
@@ -28,11 +28,11 @@ const Presentation: React.FC = () => {
             Suivi de traitement & stock
           </h3>
           <div className="w-full">
-            <p className="justify-center items-center text-gray-400 mt-2 text-center text-sm max-[768px]:flex">
+            <p className="justify-center items-center text-gray-400 mt-2 text-center text-sm max-w-[768px]">
               Gaïa vous notifie pour chaque médicament à prendre et suit votre stock, garantissant aucun oubli et une gestion simplifiée de vos médicaments.
             </p>
           </div>
-          <a href="#suivi" className="bg-white hover:bg-gray-100 text-gray-600 font-base py-2 px-4 rounded-full mt-auto border text-xs transition-all duration-300">
+          <a href="#suivi" className="bg-white hover:bg-gray-100 text-gray-600 font-normal py-2 px-4 rounded-full mt-auto border text-xs transition-all duration-300">
             Plus de détails
           </a>
         </div>
@@ -45,11 +45,11 @@ const Presentation: React.FC = () => {
             Carte des établissements de santé
           </h3>
           <div className="w-full">
-            <p className="justify-center items-center text-gray-400 mt-2 text-center text-sm max-[768px]:flex">
-              Gaia localise les établissements de santé à proximité, vous assurant de toujours disposer de vos médicaments lors de vos traitements
+            <p className="justify-center items-center text-gray-400 mt-2 text-center text-sm max-w-[768px]">
+              Gaïa localise les établissements de santé à proximité, vous assurant de toujours disposer de vos médicaments lors de vos traitements
             </p>
           </div>
-          <a href="#contentMap" className="bg-white hover:bg-gray-100 text-gray-600 font-base py-2 px-4 rounded-full mt-auto border text-xs transition-all duration-300">Plus de détails</a>
+          <a href="#contentMap" className="bg-white hover:bg-gray-100 text-gray-600 font-normal py-2 px-4 rounded-full mt-auto border text-xs transition-all duration-300">Plus de détails</a>
         </div>
 
         <div className="flex flex-col items-center gap-2 bg-white rounded-2xl pt-10 md:w-[90%] w-full max-h-[340px] sm:max-h-[500px] min-h-[250px] xl:min-h-[300px] duration-200 md:hover:shadow-cyan-100 overflow-auto">
@@ -60,11 +60,11 @@ const Presentation: React.FC = () => {
             Scan & recherche de produits médicaux
           </h3>
           <div className="w-full">
-            <p className="justify-center items-center text-gray-400 mt-2 text-center text-sm max-[768px]:flex">
-              Gaia vous permet de scanner des ordonnances et rechercher des produits médicaux
+            <p className="justify-center items-center text-gray-400 mt-2 text-center text-sm max-w-[768px]">
+              Gaïa vous permet de scanner des ordonnances et rechercher des produits médicaux
             </p>
           </div>
-          <button className="bg-white hover:bg-gray-100 text-gray-600 font-base py-2 px-4 rounded-full mt-auto border text-xs transition-all duration-300">Plus de détails</button>
+          <button className="bg-white hover:bg-gray-100 text-gray-600 font-normal py-2 px-4 rounded-full mt-auto border text-xs transition-all duration-300">Plus de détails</button>
         </div>
 
         <div className="flex flex-col items-center gap-2 bg-white rounded-2xl pt-10 md:w-[90%] w-full max-h-[340px] sm:max-h-[500px] min-h-[250px] xl:min-h-[300px] duration-200 md:hover:shadow-yellow-100 overflow-auto">
@@ -75,11 +75,11 @@ const Presentation: React.FC = () => {
             Gestion de profil
           </h3>
           <div className="w-full">
-            <p className="justify-center items-center text-gray-400 mt-2 text-center text-sm max-[768px]:flex">
-              Gaia vous permet de gérer les profils de vos proches, pour une gestion simplifiée de leurs traitements
+            <p className="justify-center items-center text-gray-400 mt-2 text-center text-sm max-w-[768px]">
+              Gaïa vous permet de gérer les profils de vos proches, pour une gestion simplifiée de leurs traitements
             </p>
           </div>
-          <a href="#contentGestionProfil" className="bg-white hover:bg-gray-100 text-gray-600 font-base py-2 px-4 rounded-full mt-auto border text-xs transition-all duration-300">Plus de détails</a>
+          <a href="#contentGestionProfil" className="bg-white hover:bg-gray-100 text-gray-600 font-normal py-2 px-4 rounded-full mt-auto border text-xs transition-all duration-300">Plus de détails</a>
         </div>
       </div>
     </div>

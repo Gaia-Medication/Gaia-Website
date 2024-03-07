@@ -18,7 +18,7 @@ const Showcase = () => {
           } transition-opacity duration-[3000ms]`}>
         <div className="flex flex-col w-full gap-2">
           <div className="bg-blue-400 rounded-full px-2 max-w-12 lg:ml-6 transition-all duration-500">
-            <p className="text-white font-semibold">New</p>
+            <p className="text-white font-semibold">Nouveau</p>
           </div>
           <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl text-gray-700 lg:ml-4 transition-all duration-500">Application Mobile</h1>
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold text-gray-800 transition-all duration-500">Gaïa Medication</h1>

@@ -32,14 +32,11 @@ const ContentScan = () => {
                                 Scanner vos boîtes de médicaments
                             </h5>
                             <p className='text-xs md:text-base lg:text-2xl text-gray-600 font-light'>
-                                Gaia vous permet de <span className='text-lime-500 font-medium'>scanner</span> vos boîte de médicaments afin d'avoir des informations sur
-                                le médicament ou d'ajouter vos médicaments dans l'application pour une meilleure gestion de vos médicamnets.
+                                Gaia vous permet de <span className='text-lime-500 font-medium'>scanner</span> vos boîtes de médicaments afin d'avoir des informations sur
+                                le médicament ou d'ajouter vos médicaments dans l'application pour une meilleure gestion de vos médicaments.
                             </p>
                             <p className='text-xs md:text-base lg:text-2xl text-gray-600 font-light'>
-                                Vous pouvez également <span className='text-lime-500 font-medium'>rechercher</span> des produits médicaux grâce à la recherche de médicament.
-                            </p>
-                            <p className='text-xs md:text-base lg:text-2xl text-gray-600 font-light'>
-
+                                Vous pouvez également <span className='text-lime-500 font-medium'>rechercher</span> des produits médicaux grâce à la recherche de médicaments.
                             </p>
                         </div>
 
@@ -66,8 +63,8 @@ const ContentScan = () => {
                                 Scanner vos ordonnances
                             </h5>
                             <p className='text-xs md:text-base lg:text-2xl text-gray-600 font-light'>
-                                Gaia vous permet de <span className='text-lime-500 font-medium'>scanner</span> vos ordonnances en un clin d'oeil,
-                                pour un ajout simplifiée de vos traitements.
+                                Gaia vous permet de <span className='text-lime-500 font-medium'>scanner</span> vos ordonnances en un clin d'œil,
+                                pour un ajout simplifié de vos traitements.
                             </p>
                             <p className='text-xs md:text-base lg:text-2xl text-gray-600 font-light'>
                                 Ainsi que les <span className='text-lime-500 font-medium'>informations</span> sur votre médecin traitant et les médicaments prescrits.

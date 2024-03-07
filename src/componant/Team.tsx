@@ -34,7 +34,7 @@ const Team = () => {
                         </div>
                         <div className=" p-6 mt-2 w-[50%] md:w-auto">
                             <h3 className=" text-xl text-gray-800 md:text-lg font-medium tracking-wider">Florian Tran</h3>
-                            <p className=" text-base md:text-sm text-gray-500">Developer / Designer</p>
+                            <p className=" text-base md:text-sm text-gray-500">Developer + Designer</p>
                             <div className="flex gap-2 md:hidden ">
                                 <a href="https://www.linkedin.com/in/florian-tran-701839263/">
                                     <FontAwesomeIcon icon={faLinkedin} className="text-blue-400 text-3xl " />                            
@@ -63,7 +63,7 @@ const Team = () => {
                         </div>
                         <div className=" p-6 mt-2 w-[50%] md:w-auto">
                             <h3 className=" text-xl text-gray-800 md:text-lg font-medium tracking-wider">Alexandre Clenet</h3>
-                            <p className=" text-base md:text-sm text-gray-500">Developer / Scrum Master</p>
+                            <p className=" text-base md:text-sm text-gray-500">Developer + Scrum Master</p>
                             <div className="flex gap-2 md:hidden ">
                                 <a href="https://www.linkedin.com/in/alexandre-clenet/">
                                     <FontAwesomeIcon icon={faLinkedin} className="text-blue-400 text-3xl " />                            
