@@ -1,6 +1,6 @@
-import axios, { AxiosError } from "axios";
-import { useState } from "react";
 import { ArrowRight } from "react-feather";
+/*import axios, { AxiosError } from "axios";
+import { useState } from "react";
 
 const Contact = () => {
     const apiKey = import.meta.env.VITE_BREVO_API_KEY;
@@ -73,16 +73,20 @@ const Contact = () => {
                 console.log("Erreur", e.message);
             }
         }
-    };
+    };*/
+
+const Contact = () => {
+
 
     return (
-        <div id="contact" className="flex flex-col justify-center items-center h-[500px]">
+        <div id="contact" className="flex flex-col justify-center items-center h-[300px]">
+            {/* <div id="contact" className="flex flex-col justify-center items-center h-[500px]"> */}
             <div className="flex flex-col w-[70%]">
                 <p className="text-base sm:text-xl text-lime-500 font-semibold">Contactez-nous</p>
                 <h2 className="text-4xl sm:text-6xl text-gray-800 font-semibold">Contact</h2>
             </div>
             <div className="h-full w-[90%] md:w-[70%] mt-10">
-                <form>
+                {/* <form>
                     <div className="grid grid-cols-3 gap-4 h-[80%]">
                         <div>
                             <input
@@ -136,7 +140,15 @@ const Contact = () => {
                             </div>
                         </button>
                     </div>
-                </form>
+                </form> */}
+                <a href="mailto:contact@gaia-medication.com" className="flex gap-2 lg:gap-4 px-8 py-3 bg-blue-100 text-blue-400 font-base lg:text-xl rounded-md hover:bg-blue-400 hover:text-white duration-300 items-center justify-center transition-all duration-300">Contactez-nous
+                    <div className="lg:flex hidden">
+                        <ArrowRight height={25} width={25} />
+                    </div>
+                    <div className="md:flex lg:hidden">
+                        <ArrowRight height={20} width={20} />
+                    </div>
+                </a>
             </div>
         </div>
     );
