@@ -1,13 +1,13 @@
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import profil1 from "../assets/profil1.png";
 import profil2 from "../assets/profil2.png";
 import profil3 from "../assets/profil3.png";
 import profil4 from "../assets/profil4.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Team = () => {
     return (
-        <div id="team" className="flex justify-center h-[130vh] md:h-[80vh]">
+        <div id="team" className="flex justify-center h-[150vh] md:h-[70vh]">
             <div className="w-[80%] xl:w-[60%]">
                 <div className="flex flex-col justify-center items-start p-4 mb-10 gap-4">
                     <h2 className="text-base sm:text-xl text-lime-500 font-semibold">Notre équipe</h2>

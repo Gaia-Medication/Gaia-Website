@@ -79,7 +79,7 @@ const Contact = () => {
 
 
     return (
-        <div id="contact" className="flex flex-col justify-center items-center h-[300px]">
+        <div id="contact" className="flex flex-col justify-center items-center h-[250px]">
             {/* <div id="contact" className="flex flex-col justify-center items-center h-[500px]"> */}
             <div className="flex flex-col w-[70%]">
                 <p className="text-base sm:text-xl text-lime-500 font-semibold">Contactez-nous</p>
