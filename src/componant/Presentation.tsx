@@ -6,7 +6,7 @@ import profileIcon from '../assets/profile.png';
 
 const Presentation: React.FC = () => {
   return (
-    <div className="flex flex-col items-center md:h-[1100px] xl:h-[900px] sm:h-[1450px] h-[1600px] gap-8 md:gap-[10%]" id="presentation">
+    <div className="flex flex-col items-center md:h-[1100px] xl:h-[1100px] sm:h-[1450px] h-[1600px] gap-8 md:gap-[10%]" id="presentation">
       <div className="flex flex-col items-center w-[90%] gap-3 ">
         <h3 className="text-base md:text-lg lg:text-xl text-lime-500 font-semibold">
           Ce que nous faisons
