@@ -1,6 +1,6 @@
-import axios, { AxiosError } from "axios";
-import { useState } from "react";
 import { ArrowRight } from "react-feather";
+/*import axios, { AxiosError } from "axios";
+import { useState } from "react";
 
 const Contact = () => {
     const apiKey = import.meta.env.VITE_BREVO_API_KEY;
@@ -73,11 +73,14 @@ const Contact = () => {
                 console.log("Erreur", e.message);
             }
         }
-    };
+    };*/
+
+const Contact = () => {
+
 
     return (
         <div id="contact" className="flex flex-col justify-center items-center h-[300px]">
-        {/* <div id="contact" className="flex flex-col justify-center items-center h-[500px]"> */}
+            {/* <div id="contact" className="flex flex-col justify-center items-center h-[500px]"> */}
             <div className="flex flex-col w-[70%]">
                 <p className="text-base sm:text-xl text-lime-500 font-semibold">Contactez-nous</p>
                 <h2 className="text-4xl sm:text-6xl text-gray-800 font-semibold">Contact</h2>
